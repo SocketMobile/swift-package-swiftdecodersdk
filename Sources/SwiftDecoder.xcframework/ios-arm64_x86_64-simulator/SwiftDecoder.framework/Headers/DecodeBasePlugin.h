@@ -9,6 +9,10 @@
 #import "SwiftPlugin.h"
 #import "PluginHelper.h"
 
+@protocol DecodeBasePluginProtocol <NSObject>
+-(void)updateChildFrame;
+@end
+
 /**
  * @brief This is a decoder base pulg-in class.  It is used to give a base feature set to all plug-ins that sub-class it.  This allows one to easily add a consistent base set of feature to a group of plug-ins.  This does not handle any results, as it relies on any derived class to add this functionality.
  *
@@ -23,6 +27,9 @@
     VibrateStyle vibrateStyle;
     CGFloat overlayTextHeight;
 }
+
+@property (nonatomic, assign) BOOL enableTouchResizingEnable;
+@property(weak, nonatomic) id<DecodeBasePluginProtocol> delegateDecodeBasePluginProtocol;
 
 /// @brief This method enables vibration when a barcode is successfully decoded.
 /// @param enable The enable state of the vibration:TRUE or FALSE
@@ -169,4 +176,6 @@
 -(void) drawOverlayText:(CGContextRef)context Rect:(CGRect)rect;
 
 -(void) solveOverlayTextStretchIssue:(CGRect)rect;
+-(void)setEnableTouchResizingEnable:(BOOL)enable;
+
 @end
