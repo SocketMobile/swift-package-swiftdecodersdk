@@ -13,5 +13,5 @@
 
 @optional
 - (void) onBatchScanPluginResults:(HSMDecodeResultArray*)results barcodeImages:(NSMutableArray*)barcodeImages;
-
+- (void) onBatchScanAsyncResult:(HSMDecodeResult *)barcodeData;
 @end

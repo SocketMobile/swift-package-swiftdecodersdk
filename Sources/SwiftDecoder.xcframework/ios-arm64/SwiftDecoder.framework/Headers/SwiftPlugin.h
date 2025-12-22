@@ -26,7 +26,9 @@ typedef enum {
     AR_PRICELABEL,
     ADVOCR,
     AR_BASE,
-    DL_AGE_VERIFICATION
+    DL_AGE_VERIFICATION,
+    AR_COUNT,
+    AR_MASTERLIST
 } PLUGIN_TYPE;
 /**
  * @brief A SwiftPlugin is a special Objective-C plug-in class that allows you to completely control the look and function of a barcode scanning operation.

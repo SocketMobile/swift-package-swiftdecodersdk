@@ -96,5 +96,4 @@
  */
 -(UIImage*) getLastARDecodedImage;
 
-
 @end

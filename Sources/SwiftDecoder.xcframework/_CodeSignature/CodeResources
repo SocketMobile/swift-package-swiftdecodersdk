@@ -4,17 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
+		<key>ios-arm64/SwiftDecoder.framework/Alert.png</key>
 		<data>
-		nMUE5YFZDXxPfCWY5ENxGNSqnmY=
+		eX/EkaMaraHE81T8p2lEiAEhwzs=
 		</data>
-		<key>ios-arm64/.DS_Store</key>
+		<key>ios-arm64/SwiftDecoder.framework/Error.png</key>
 		<data>
-		DerDrLLcnjUTLc16t3O7dGyWABg=
-		</data>
-		<key>ios-arm64/SwiftDecoder.framework/.DS_Store</key>
-		<data>
-		WW3RRl/8AYzEAbEmPgV82zF0DU0=
+		sRf87/2ZMojFppuEe3IdwYZCazU=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/HSMCameraPreview.nib</key>
 		<data>
@@ -30,7 +26,7 @@
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/APIVersion.h</key>
 		<data>
-		fCJo01n3bVCaYQWGnLduuk90LLE=
+		vrJU9NXjQcaRlOLVBxfneZcbhsk=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/ARBasePlugin.h</key>
 		<data>
@@ -70,11 +66,11 @@
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/BatchScanPlugin.h</key>
 		<data>
-		Mn1WO+7+TCoyWqaXhHOVAsersIc=
+		PfL8f/OG5AEnmfMELSvMsLZrd94=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/BatchScanPluginResultListener.h</key>
 		<data>
-		yb8Rl6E3r3o4Ezxb1Rj+NALfQqY=
+		CzqGl8QQLIC7wCTaCKNrrmKwcEg=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/BatchScanView.h</key>
 		<data>
@@ -186,7 +182,7 @@
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/HSMDecoder.h</key>
 		<data>
-		IHbKNBrKY1iBB2ciczxs72ijSok=
+		uZCZIGjnIZHx6eH7VlwaajV0MBc=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/LicenseData.h</key>
 		<data>
@@ -203,6 +199,18 @@
 		<key>ios-arm64/SwiftDecoder.framework/Headers/MRZParser.h</key>
 		<data>
 		Sh+frIT1ZVSu+4gNEiSHXkFStHM=
+		</data>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/MasterListScanPlugin.h</key>
+		<data>
+		O/552LRZUAIWwyyo6CIqI1/ebrQ=
+		</data>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/MasterListScanResultListener.h</key>
+		<data>
+		HBUMOE3R/Bcf0GHi2BiEmibw3+Q=
+		</data>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/MasterListScanView.h</key>
+		<data>
+		54KmuGhVeR18kgtIHfPvnLZzBao=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/MotorVehicleData.h</key>
 		<data>
@@ -244,9 +252,17 @@
 		<data>
 		V/LqLCvlGKhns16Dkc3vMKxRaRo=
 		</data>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewCountPlugin.h</key>
+		<data>
+		WA9AhVILfZSAAsaXwGg9EfK+ha8=
+		</data>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewCountResultListener.h</key>
+		<data>
+		7TIRJd6bf5ZLanWjc5jpT/9Qa0I=
+		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewSelectPlugin.h</key>
 		<data>
-		sg1HUP5Cw4eKrwn1Tw9e7b7BR6M=
+		m3cDKl3Ulq7CsG2qCY31bFMAe8s=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewSelectView.h</key>
 		<data>
@@ -290,7 +306,7 @@
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/SwiftDecoder.h</key>
 		<data>
-		Nm7XESwP382w4BO2EmXhORwcdB8=
+		4DbgBJlOtB4DGEDWwviQsK8kePU=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/SwiftFindPlugin.h</key>
 		<data>
@@ -298,7 +314,7 @@
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/SwiftPlugin.h</key>
 		<data>
-		c9zsgZ1C6rGP5RPg60L9Vv2QqI8=
+		Thu5BJVTncgT56Da1Vj4/UtjHpQ=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/SwiftSettings.h</key>
 		<data>
@@ -318,7 +334,7 @@
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Info.plist</key>
 		<data>
-		/d0q+lNARpqY6qEl3QYVscq6YQk=
+		sWBJjR9dSGSfccPmbD1CpJDT/VU=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/Modules/module.modulemap</key>
 		<data>
@@ -328,13 +344,17 @@
 		<data>
 		XpWGxZJKYZy/pch7+W2uihULqaM=
 		</data>
+		<key>ios-arm64/SwiftDecoder.framework/Success.png</key>
+		<data>
+		GIC/8oWfYd36wEKTyMPYpXi33T0=
+		</data>
 		<key>ios-arm64/SwiftDecoder.framework/SwiftDecoder</key>
 		<data>
-		/Omx6Nubw18YH+ij4wqaxqVGnDM=
+		Cb3GCR82bvFwdPK1lV8x5YfsjR8=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/_CodeSignature/CodeResources</key>
 		<data>
-		BDqz9370jhJReE2PtohtHUHSc1Y=
+		ojSFA9iPiU4vhnmIg7amUK/LzEE=
 		</data>
 		<key>ios-arm64/SwiftDecoder.framework/check-wrong.png</key>
 		<data>
@@ -352,6 +372,14 @@
 		<data>
 		xfY1kfTsmSFwlLFboGFODpmiBBo=
 		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Alert.png</key>
+		<data>
+		eX/EkaMaraHE81T8p2lEiAEhwzs=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Error.png</key>
+		<data>
+		sRf87/2ZMojFppuEe3IdwYZCazU=
+		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/HSMCameraPreview.nib</key>
 		<data>
 		8MgdAycav0L0STlNsKWNJhyZ2/8=
@@ -366,7 +394,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/APIVersion.h</key>
 		<data>
-		fCJo01n3bVCaYQWGnLduuk90LLE=
+		vrJU9NXjQcaRlOLVBxfneZcbhsk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/ARBasePlugin.h</key>
 		<data>
@@ -374,7 +402,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/AROverlayView.h</key>
 		<data>
-		1kvvDzdU+mOXOhbGUx6GDRBBpkI=
+		z3FqYO8kWz3tiu1g0y0r6sjmVM8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/ARPluginTouchListener.h</key>
 		<data>
@@ -406,11 +434,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/BatchScanPlugin.h</key>
 		<data>
-		Mn1WO+7+TCoyWqaXhHOVAsersIc=
+		PfL8f/OG5AEnmfMELSvMsLZrd94=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/BatchScanPluginResultListener.h</key>
 		<data>
-		yb8Rl6E3r3o4Ezxb1Rj+NALfQqY=
+		CzqGl8QQLIC7wCTaCKNrrmKwcEg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/BatchScanView.h</key>
 		<data>
@@ -522,7 +550,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/HSMDecoder.h</key>
 		<data>
-		IHbKNBrKY1iBB2ciczxs72ijSok=
+		uZCZIGjnIZHx6eH7VlwaajV0MBc=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/LicenseData.h</key>
 		<data>
@@ -539,6 +567,18 @@
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MRZParser.h</key>
 		<data>
 		Sh+frIT1ZVSu+4gNEiSHXkFStHM=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MasterListScanPlugin.h</key>
+		<data>
+		O/552LRZUAIWwyyo6CIqI1/ebrQ=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MasterListScanResultListener.h</key>
+		<data>
+		HBUMOE3R/Bcf0GHi2BiEmibw3+Q=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MasterListScanView.h</key>
+		<data>
+		54KmuGhVeR18kgtIHfPvnLZzBao=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MotorVehicleData.h</key>
 		<data>
@@ -580,9 +620,17 @@
 		<data>
 		V/LqLCvlGKhns16Dkc3vMKxRaRo=
 		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewCountPlugin.h</key>
+		<data>
+		WA9AhVILfZSAAsaXwGg9EfK+ha8=
+		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewCountResultListener.h</key>
+		<data>
+		7TIRJd6bf5ZLanWjc5jpT/9Qa0I=
+		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewSelectPlugin.h</key>
 		<data>
-		sg1HUP5Cw4eKrwn1Tw9e7b7BR6M=
+		m3cDKl3Ulq7CsG2qCY31bFMAe8s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewSelectView.h</key>
 		<data>
@@ -626,7 +674,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/SwiftDecoder.h</key>
 		<data>
-		Nm7XESwP382w4BO2EmXhORwcdB8=
+		4DbgBJlOtB4DGEDWwviQsK8kePU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/SwiftFindPlugin.h</key>
 		<data>
@@ -634,7 +682,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/SwiftPlugin.h</key>
 		<data>
-		c9zsgZ1C6rGP5RPg60L9Vv2QqI8=
+		Thu5BJVTncgT56Da1Vj4/UtjHpQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/SwiftSettings.h</key>
 		<data>
@@ -654,7 +702,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Info.plist</key>
 		<data>
-		f8e/zsHymc9LU+BeXYxeMrO4VPM=
+		zpYOjX1FOwJyi37mWq0Z/VJG6F8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Modules/module.modulemap</key>
 		<data>
@@ -664,13 +712,17 @@
 		<data>
 		XpWGxZJKYZy/pch7+W2uihULqaM=
 		</data>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Success.png</key>
+		<data>
+		GIC/8oWfYd36wEKTyMPYpXi33T0=
+		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/SwiftDecoder</key>
 		<data>
-		SUQ050auNlP7fbotq8zp58t8wuA=
+		VNk+gbKbUvWWd18YF9ce2QOex9s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/_CodeSignature/CodeResources</key>
 		<data>
-		sfVWZDIzWJ5T7fnnnIySbMYInOw=
+		6Y72/ES/3O5mZhcph5d3RqX1JWY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/check-wrong.png</key>
 		<data>
@@ -686,11 +738,33 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/undecoded.png</key>
 		<data>
-		SFWJQah9iHjZgBdkVC+wQXOqxP8=
+		xfY1kfTsmSFwlLFboGFODpmiBBo=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>ios-arm64/SwiftDecoder.framework/Alert.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eX/EkaMaraHE81T8p2lEiAEhwzs=
+			</data>
+			<key>hash2</key>
+			<data>
+			tA3N4qh64aSjtJRksgAFKzpecluChm4OOZBnV6yaTks=
+			</data>
+		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Error.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sRf87/2ZMojFppuEe3IdwYZCazU=
+			</data>
+			<key>hash2</key>
+			<data>
+			yH+pTgtDvp4/E9Rb+KGPT5X2ASpac+xeb38innLPGzw=
+			</data>
+		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/HSMCameraPreview.nib</key>
 		<dict>
 			<key>hash</key>
@@ -728,11 +802,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fCJo01n3bVCaYQWGnLduuk90LLE=
+			vrJU9NXjQcaRlOLVBxfneZcbhsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdbTdeItftXIJwsTQYRWHcAntKCq3LxMapzNmdZ/RfQ=
+			98LrkCwB4fRP8ukxtAeHs9n8pmRhF8iTDHrxgCNKY8Q=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/ARBasePlugin.h</key>
@@ -838,22 +912,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mn1WO+7+TCoyWqaXhHOVAsersIc=
+			PfL8f/OG5AEnmfMELSvMsLZrd94=
 			</data>
 			<key>hash2</key>
 			<data>
-			LnoUmEXLgRwMM+HGPknWkXHt70pFVC/peawa4FygWNs=
+			TWl6tXb7wsMvx7Nw0Y9E2GghmxduL+MHyJleyTPJec0=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/BatchScanPluginResultListener.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yb8Rl6E3r3o4Ezxb1Rj+NALfQqY=
+			CzqGl8QQLIC7wCTaCKNrrmKwcEg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YgUqkw1QiVqjLDP1o77v6luSp1PaBN35PN1uvjMOpH8=
+			dy3MHqiywxsJic+gZ3U2+Fdmiv9n7RTnsGLDDTb0dCs=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/BatchScanView.h</key>
@@ -1157,11 +1231,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IHbKNBrKY1iBB2ciczxs72ijSok=
+			uZCZIGjnIZHx6eH7VlwaajV0MBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kxx+gToWDgfbumy1twJwv3IUR1kgdBOGnpvLS9xNA7o=
+			NqsBMbcr5iFCsRKoFIzhESxs/aWHSViMxcOq7pjBE9g=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/LicenseData.h</key>
@@ -1206,6 +1280,39 @@
 			<key>hash2</key>
 			<data>
 			AYxaBUgQAIlqWSXVrlbMR4nrofrHOiFjjJBuhzHhvjk=
+			</data>
+		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/MasterListScanPlugin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O/552LRZUAIWwyyo6CIqI1/ebrQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			MfXyrAWSSO7o5ABk5W21hRwMrqM/Her3zPlf9ZbqCPA=
+			</data>
+		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/MasterListScanResultListener.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HBUMOE3R/Bcf0GHi2BiEmibw3+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			5wirB0AllRoRANLfkL5dqU8CW3TqGIdGzok4KgaIUbE=
+			</data>
+		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/MasterListScanView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			54KmuGhVeR18kgtIHfPvnLZzBao=
+			</data>
+			<key>hash2</key>
+			<data>
+			DbWVOB+NnTZOvJVdIkSYLMsvwNnY+Sw6gWjEzR0ODyo=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/MotorVehicleData.h</key>
@@ -1318,15 +1425,37 @@
 			LeXMK5Mq+BSQXJGnGYZmR12XTtkuVFEPge6hOTZAZGY=
 			</data>
 		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewCountPlugin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WA9AhVILfZSAAsaXwGg9EfK+ha8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sDzeggZx5Rzcb7QFHAxJ4WfBXNN+m/jwgRLfMBqyKn0=
+			</data>
+		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewCountResultListener.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7TIRJd6bf5ZLanWjc5jpT/9Qa0I=
+			</data>
+			<key>hash2</key>
+			<data>
+			dBiG+WNbPsgNs9oAn9mc6hhUn/w7yg3S3bPfVfYdjlM=
+			</data>
+		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewSelectPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sg1HUP5Cw4eKrwn1Tw9e7b7BR6M=
+			m3cDKl3Ulq7CsG2qCY31bFMAe8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			tnu4Ul6oXlWNSDb2c5OnfrvMDlF68o00ZRbldT39/T8=
+			CcUVqVwZ+20lz5ZKXFAstA24opJlREJWt7Dt5zkA/Xw=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/PreviewSelectView.h</key>
@@ -1443,11 +1572,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nm7XESwP382w4BO2EmXhORwcdB8=
+			4DbgBJlOtB4DGEDWwviQsK8kePU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mSrldzkZuFw5GBpuE7KYS6nlb3ixh7GzU1MKIBxbDk0=
+			A8jj1+mqTS6Wc78nDvPWGO1WGZmr50oxZjkylVyYwnc=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/SwiftFindPlugin.h</key>
@@ -1465,11 +1594,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c9zsgZ1C6rGP5RPg60L9Vv2QqI8=
+			Thu5BJVTncgT56Da1Vj4/UtjHpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			U7ItylPkilpZiRhZu9WGZLkE3OKnmP1NZ7NsnqQxg6o=
+			mzKuZLAjBLMsGVAeXQzcqjK9SD1g52QDoorPq0Ns60A=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Headers/SwiftSettings.h</key>
@@ -1520,11 +1649,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/d0q+lNARpqY6qEl3QYVscq6YQk=
+			sWBJjR9dSGSfccPmbD1CpJDT/VU=
 			</data>
 			<key>hash2</key>
 			<data>
-			yyyzSA35VwDU7eBnn6RvAF1Tr+c3Zpq2wVPohuPisuA=
+			+OcnPOyXz3ndyuZyRy13tm6A4yA2ISAzZCczYS6LhHk=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/Modules/module.modulemap</key>
@@ -1549,26 +1678,37 @@
 			XbzgVoBp9AS5ywUOk4ZX8tCt4xBVEQSaS6FuXWNW5wk=
 			</data>
 		</dict>
+		<key>ios-arm64/SwiftDecoder.framework/Success.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GIC/8oWfYd36wEKTyMPYpXi33T0=
+			</data>
+			<key>hash2</key>
+			<data>
+			OdCvV5lgXPAbfnjU3UG5orThatbY3QpN3PG04I/3vkY=
+			</data>
+		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/SwiftDecoder</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/Omx6Nubw18YH+ij4wqaxqVGnDM=
+			Cb3GCR82bvFwdPK1lV8x5YfsjR8=
 			</data>
 			<key>hash2</key>
 			<data>
-			8ZEsEc4zMvhRE+SE71FQXOttwrrUf17U3sVmPA4k0PA=
+			28s+XEQDbbsMdzKEOmiTZR7FeBe8cNNKud9wNrkYdIU=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BDqz9370jhJReE2PtohtHUHSc1Y=
+			ojSFA9iPiU4vhnmIg7amUK/LzEE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rx2rY1tt3Pjf7WnS26Vt49juYpkCSQC08tVOtLdOWU4=
+			I58vXaECNUyUS14kwUhV8fzVdxa3Cus6rRcMHYsV0tE=
 			</data>
 		</dict>
 		<key>ios-arm64/SwiftDecoder.framework/check-wrong.png</key>
@@ -1615,6 +1755,28 @@
 			ZVW8+7WZQcVqpJD8ycXeLlQKgOc0eSNe2a+QC2BLwyU=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Alert.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eX/EkaMaraHE81T8p2lEiAEhwzs=
+			</data>
+			<key>hash2</key>
+			<data>
+			tA3N4qh64aSjtJRksgAFKzpecluChm4OOZBnV6yaTks=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Error.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sRf87/2ZMojFppuEe3IdwYZCazU=
+			</data>
+			<key>hash2</key>
+			<data>
+			yH+pTgtDvp4/E9Rb+KGPT5X2ASpac+xeb38innLPGzw=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/HSMCameraPreview.nib</key>
 		<dict>
 			<key>hash</key>
@@ -1652,11 +1814,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			fCJo01n3bVCaYQWGnLduuk90LLE=
+			vrJU9NXjQcaRlOLVBxfneZcbhsk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zdbTdeItftXIJwsTQYRWHcAntKCq3LxMapzNmdZ/RfQ=
+			98LrkCwB4fRP8ukxtAeHs9n8pmRhF8iTDHrxgCNKY8Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/ARBasePlugin.h</key>
@@ -1674,11 +1836,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1kvvDzdU+mOXOhbGUx6GDRBBpkI=
+			z3FqYO8kWz3tiu1g0y0r6sjmVM8=
 			</data>
 			<key>hash2</key>
 			<data>
-			105S3RPPfi7PLZPbIq/N82lIuYdgE3BR0z9M3psVguQ=
+			8MIlJTl+oOsoGpTdRnc2qjQ9a2TlqxEu7qDrvAd/TmA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/ARPluginTouchListener.h</key>
@@ -1762,22 +1924,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mn1WO+7+TCoyWqaXhHOVAsersIc=
+			PfL8f/OG5AEnmfMELSvMsLZrd94=
 			</data>
 			<key>hash2</key>
 			<data>
-			LnoUmEXLgRwMM+HGPknWkXHt70pFVC/peawa4FygWNs=
+			TWl6tXb7wsMvx7Nw0Y9E2GghmxduL+MHyJleyTPJec0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/BatchScanPluginResultListener.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yb8Rl6E3r3o4Ezxb1Rj+NALfQqY=
+			CzqGl8QQLIC7wCTaCKNrrmKwcEg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YgUqkw1QiVqjLDP1o77v6luSp1PaBN35PN1uvjMOpH8=
+			dy3MHqiywxsJic+gZ3U2+Fdmiv9n7RTnsGLDDTb0dCs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/BatchScanView.h</key>
@@ -2081,11 +2243,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IHbKNBrKY1iBB2ciczxs72ijSok=
+			uZCZIGjnIZHx6eH7VlwaajV0MBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kxx+gToWDgfbumy1twJwv3IUR1kgdBOGnpvLS9xNA7o=
+			NqsBMbcr5iFCsRKoFIzhESxs/aWHSViMxcOq7pjBE9g=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/LicenseData.h</key>
@@ -2130,6 +2292,39 @@
 			<key>hash2</key>
 			<data>
 			AYxaBUgQAIlqWSXVrlbMR4nrofrHOiFjjJBuhzHhvjk=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MasterListScanPlugin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			O/552LRZUAIWwyyo6CIqI1/ebrQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			MfXyrAWSSO7o5ABk5W21hRwMrqM/Her3zPlf9ZbqCPA=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MasterListScanResultListener.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HBUMOE3R/Bcf0GHi2BiEmibw3+Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			5wirB0AllRoRANLfkL5dqU8CW3TqGIdGzok4KgaIUbE=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MasterListScanView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			54KmuGhVeR18kgtIHfPvnLZzBao=
+			</data>
+			<key>hash2</key>
+			<data>
+			DbWVOB+NnTZOvJVdIkSYLMsvwNnY+Sw6gWjEzR0ODyo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/MotorVehicleData.h</key>
@@ -2242,15 +2437,37 @@
 			LeXMK5Mq+BSQXJGnGYZmR12XTtkuVFEPge6hOTZAZGY=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewCountPlugin.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WA9AhVILfZSAAsaXwGg9EfK+ha8=
+			</data>
+			<key>hash2</key>
+			<data>
+			sDzeggZx5Rzcb7QFHAxJ4WfBXNN+m/jwgRLfMBqyKn0=
+			</data>
+		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewCountResultListener.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7TIRJd6bf5ZLanWjc5jpT/9Qa0I=
+			</data>
+			<key>hash2</key>
+			<data>
+			dBiG+WNbPsgNs9oAn9mc6hhUn/w7yg3S3bPfVfYdjlM=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewSelectPlugin.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sg1HUP5Cw4eKrwn1Tw9e7b7BR6M=
+			m3cDKl3Ulq7CsG2qCY31bFMAe8s=
 			</data>
 			<key>hash2</key>
 			<data>
-			tnu4Ul6oXlWNSDb2c5OnfrvMDlF68o00ZRbldT39/T8=
+			CcUVqVwZ+20lz5ZKXFAstA24opJlREJWt7Dt5zkA/Xw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/PreviewSelectView.h</key>
@@ -2367,11 +2584,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nm7XESwP382w4BO2EmXhORwcdB8=
+			4DbgBJlOtB4DGEDWwviQsK8kePU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mSrldzkZuFw5GBpuE7KYS6nlb3ixh7GzU1MKIBxbDk0=
+			A8jj1+mqTS6Wc78nDvPWGO1WGZmr50oxZjkylVyYwnc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/SwiftFindPlugin.h</key>
@@ -2389,11 +2606,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			c9zsgZ1C6rGP5RPg60L9Vv2QqI8=
+			Thu5BJVTncgT56Da1Vj4/UtjHpQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			U7ItylPkilpZiRhZu9WGZLkE3OKnmP1NZ7NsnqQxg6o=
+			mzKuZLAjBLMsGVAeXQzcqjK9SD1g52QDoorPq0Ns60A=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Headers/SwiftSettings.h</key>
@@ -2444,11 +2661,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f8e/zsHymc9LU+BeXYxeMrO4VPM=
+			zpYOjX1FOwJyi37mWq0Z/VJG6F8=
 			</data>
 			<key>hash2</key>
 			<data>
-			QBFosHf+L7hfo3Mo/fxwveDb1Owi1ogeDfw/ycG98IY=
+			TOeZl1km+JQcFuFmNkMJAnGQZST6Na/P5Wt8dle41Po=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Modules/module.modulemap</key>
@@ -2473,26 +2690,37 @@
 			XbzgVoBp9AS5ywUOk4ZX8tCt4xBVEQSaS6FuXWNW5wk=
 			</data>
 		</dict>
+		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/Success.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GIC/8oWfYd36wEKTyMPYpXi33T0=
+			</data>
+			<key>hash2</key>
+			<data>
+			OdCvV5lgXPAbfnjU3UG5orThatbY3QpN3PG04I/3vkY=
+			</data>
+		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/SwiftDecoder</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SUQ050auNlP7fbotq8zp58t8wuA=
+			VNk+gbKbUvWWd18YF9ce2QOex9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			UoN2lyHv0heCwi3LmNvJt9nicG/xOdIHFykX+t1QWhM=
+			7ziptgIf2j9lENRVCUtKXI4/9eWDk3VMF7LTjcKcaQQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			sfVWZDIzWJ5T7fnnnIySbMYInOw=
+			6Y72/ES/3O5mZhcph5d3RqX1JWY=
 			</data>
 			<key>hash2</key>
 			<data>
-			MCp1KP5DlqNtrf2Vl7eyfeBsVEmN1WPenjy0AsyNP9w=
+			F7InEeaGQCxOTQfqygwz4t/rmrYkOBWT3As2j1Cuw1o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/SwiftDecoder.framework/check-wrong.png</key>
@@ -2532,11 +2760,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SFWJQah9iHjZgBdkVC+wQXOqxP8=
+			xfY1kfTsmSFwlLFboGFODpmiBBo=
 			</data>
 			<key>hash2</key>
 			<data>
-			bsUMs02WzJJ+KcAnGIHroizRxBB8bS2ceAm2JjUq4x0=
+			ZVW8+7WZQcVqpJD8ycXeLlQKgOc0eSNe2a+QC2BLwyU=
 			</data>
 		</dict>
 	</dict>

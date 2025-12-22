@@ -342,6 +342,21 @@
  */
 - (void) enableFlashOnDecodeWithIntensity:(float)flashIntensity;
 /**
+ * @brief Checks if sound is enabled
+ *
+ * @return
+ *  Boolean If the sound was enabled or not
+ */
+-(BOOL) isSoundEnabled;
+
+/**
+ * @brief Checks if vibration is enabled
+ *
+ * @return
+ *  Boolean If the vibration was enabled or not
+ */
+-(BOOL)isVibrationEnabled;
+/**
  *  @brief Sets the color of the camera aimer graphic
  *
  *  @param color

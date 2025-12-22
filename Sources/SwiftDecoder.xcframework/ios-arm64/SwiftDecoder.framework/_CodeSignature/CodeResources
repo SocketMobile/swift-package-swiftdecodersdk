@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Alert.png</key>
+		<data>
+		eX/EkaMaraHE81T8p2lEiAEhwzs=
+		</data>
+		<key>Error.png</key>
+		<data>
+		sRf87/2ZMojFppuEe3IdwYZCazU=
+		</data>
 		<key>HSMCameraPreview.nib</key>
 		<data>
 		8MgdAycav0L0STlNsKWNJhyZ2/8=
@@ -18,7 +26,7 @@
 		</data>
 		<key>Headers/APIVersion.h</key>
 		<data>
-		fCJo01n3bVCaYQWGnLduuk90LLE=
+		vrJU9NXjQcaRlOLVBxfneZcbhsk=
 		</data>
 		<key>Headers/ARBasePlugin.h</key>
 		<data>
@@ -58,11 +66,11 @@
 		</data>
 		<key>Headers/BatchScanPlugin.h</key>
 		<data>
-		Mn1WO+7+TCoyWqaXhHOVAsersIc=
+		PfL8f/OG5AEnmfMELSvMsLZrd94=
 		</data>
 		<key>Headers/BatchScanPluginResultListener.h</key>
 		<data>
-		yb8Rl6E3r3o4Ezxb1Rj+NALfQqY=
+		CzqGl8QQLIC7wCTaCKNrrmKwcEg=
 		</data>
 		<key>Headers/BatchScanView.h</key>
 		<data>
@@ -174,7 +182,7 @@
 		</data>
 		<key>Headers/HSMDecoder.h</key>
 		<data>
-		IHbKNBrKY1iBB2ciczxs72ijSok=
+		uZCZIGjnIZHx6eH7VlwaajV0MBc=
 		</data>
 		<key>Headers/LicenseData.h</key>
 		<data>
@@ -191,6 +199,18 @@
 		<key>Headers/MRZParser.h</key>
 		<data>
 		Sh+frIT1ZVSu+4gNEiSHXkFStHM=
+		</data>
+		<key>Headers/MasterListScanPlugin.h</key>
+		<data>
+		O/552LRZUAIWwyyo6CIqI1/ebrQ=
+		</data>
+		<key>Headers/MasterListScanResultListener.h</key>
+		<data>
+		HBUMOE3R/Bcf0GHi2BiEmibw3+Q=
+		</data>
+		<key>Headers/MasterListScanView.h</key>
+		<data>
+		54KmuGhVeR18kgtIHfPvnLZzBao=
 		</data>
 		<key>Headers/MotorVehicleData.h</key>
 		<data>
@@ -232,9 +252,17 @@
 		<data>
 		V/LqLCvlGKhns16Dkc3vMKxRaRo=
 		</data>
+		<key>Headers/PreviewCountPlugin.h</key>
+		<data>
+		WA9AhVILfZSAAsaXwGg9EfK+ha8=
+		</data>
+		<key>Headers/PreviewCountResultListener.h</key>
+		<data>
+		7TIRJd6bf5ZLanWjc5jpT/9Qa0I=
+		</data>
 		<key>Headers/PreviewSelectPlugin.h</key>
 		<data>
-		sg1HUP5Cw4eKrwn1Tw9e7b7BR6M=
+		m3cDKl3Ulq7CsG2qCY31bFMAe8s=
 		</data>
 		<key>Headers/PreviewSelectView.h</key>
 		<data>
@@ -278,7 +306,7 @@
 		</data>
 		<key>Headers/SwiftDecoder.h</key>
 		<data>
-		Nm7XESwP382w4BO2EmXhORwcdB8=
+		4DbgBJlOtB4DGEDWwviQsK8kePU=
 		</data>
 		<key>Headers/SwiftFindPlugin.h</key>
 		<data>
@@ -286,7 +314,7 @@
 		</data>
 		<key>Headers/SwiftPlugin.h</key>
 		<data>
-		c9zsgZ1C6rGP5RPg60L9Vv2QqI8=
+		Thu5BJVTncgT56Da1Vj4/UtjHpQ=
 		</data>
 		<key>Headers/SwiftSettings.h</key>
 		<data>
@@ -306,7 +334,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/d0q+lNARpqY6qEl3QYVscq6YQk=
+		sWBJjR9dSGSfccPmbD1CpJDT/VU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -315,6 +343,10 @@
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
 		XpWGxZJKYZy/pch7+W2uihULqaM=
+		</data>
+		<key>Success.png</key>
+		<data>
+		GIC/8oWfYd36wEKTyMPYpXi33T0=
 		</data>
 		<key>check-wrong.png</key>
 		<data>
@@ -335,6 +367,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Alert.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tA3N4qh64aSjtJRksgAFKzpecluChm4OOZBnV6yaTks=
+			</data>
+		</dict>
+		<key>Error.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yH+pTgtDvp4/E9Rb+KGPT5X2ASpac+xeb38innLPGzw=
+			</data>
+		</dict>
 		<key>HSMCameraPreview.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -360,7 +406,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zdbTdeItftXIJwsTQYRWHcAntKCq3LxMapzNmdZ/RfQ=
+			98LrkCwB4fRP8ukxtAeHs9n8pmRhF8iTDHrxgCNKY8Q=
 			</data>
 		</dict>
 		<key>Headers/ARBasePlugin.h</key>
@@ -430,14 +476,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LnoUmEXLgRwMM+HGPknWkXHt70pFVC/peawa4FygWNs=
+			TWl6tXb7wsMvx7Nw0Y9E2GghmxduL+MHyJleyTPJec0=
 			</data>
 		</dict>
 		<key>Headers/BatchScanPluginResultListener.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YgUqkw1QiVqjLDP1o77v6luSp1PaBN35PN1uvjMOpH8=
+			dy3MHqiywxsJic+gZ3U2+Fdmiv9n7RTnsGLDDTb0dCs=
 			</data>
 		</dict>
 		<key>Headers/BatchScanView.h</key>
@@ -633,7 +679,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kxx+gToWDgfbumy1twJwv3IUR1kgdBOGnpvLS9xNA7o=
+			NqsBMbcr5iFCsRKoFIzhESxs/aWHSViMxcOq7pjBE9g=
 			</data>
 		</dict>
 		<key>Headers/LicenseData.h</key>
@@ -662,6 +708,27 @@
 			<key>hash2</key>
 			<data>
 			AYxaBUgQAIlqWSXVrlbMR4nrofrHOiFjjJBuhzHhvjk=
+			</data>
+		</dict>
+		<key>Headers/MasterListScanPlugin.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MfXyrAWSSO7o5ABk5W21hRwMrqM/Her3zPlf9ZbqCPA=
+			</data>
+		</dict>
+		<key>Headers/MasterListScanResultListener.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5wirB0AllRoRANLfkL5dqU8CW3TqGIdGzok4KgaIUbE=
+			</data>
+		</dict>
+		<key>Headers/MasterListScanView.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DbWVOB+NnTZOvJVdIkSYLMsvwNnY+Sw6gWjEzR0ODyo=
 			</data>
 		</dict>
 		<key>Headers/MotorVehicleData.h</key>
@@ -734,11 +801,25 @@
 			LeXMK5Mq+BSQXJGnGYZmR12XTtkuVFEPge6hOTZAZGY=
 			</data>
 		</dict>
+		<key>Headers/PreviewCountPlugin.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sDzeggZx5Rzcb7QFHAxJ4WfBXNN+m/jwgRLfMBqyKn0=
+			</data>
+		</dict>
+		<key>Headers/PreviewCountResultListener.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dBiG+WNbPsgNs9oAn9mc6hhUn/w7yg3S3bPfVfYdjlM=
+			</data>
+		</dict>
 		<key>Headers/PreviewSelectPlugin.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tnu4Ul6oXlWNSDb2c5OnfrvMDlF68o00ZRbldT39/T8=
+			CcUVqVwZ+20lz5ZKXFAstA24opJlREJWt7Dt5zkA/Xw=
 			</data>
 		</dict>
 		<key>Headers/PreviewSelectView.h</key>
@@ -815,7 +896,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mSrldzkZuFw5GBpuE7KYS6nlb3ixh7GzU1MKIBxbDk0=
+			A8jj1+mqTS6Wc78nDvPWGO1WGZmr50oxZjkylVyYwnc=
 			</data>
 		</dict>
 		<key>Headers/SwiftFindPlugin.h</key>
@@ -829,7 +910,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U7ItylPkilpZiRhZu9WGZLkE3OKnmP1NZ7NsnqQxg6o=
+			mzKuZLAjBLMsGVAeXQzcqjK9SD1g52QDoorPq0Ns60A=
 			</data>
 		</dict>
 		<key>Headers/SwiftSettings.h</key>
@@ -872,6 +953,13 @@
 			<key>hash2</key>
 			<data>
 			XbzgVoBp9AS5ywUOk4ZX8tCt4xBVEQSaS6FuXWNW5wk=
+			</data>
+		</dict>
+		<key>Success.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OdCvV5lgXPAbfnjU3UG5orThatbY3QpN3PG04I/3vkY=
 			</data>
 		</dict>
 		<key>check-wrong.png</key>

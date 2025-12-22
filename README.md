@@ -1,3 +1,3 @@
-# Honeywell SwiftDecoder - Swift Package Manager - 6.2.3
+# Honeywell SwiftDecoder - Swift Package Manager - 6.4.0
 
 This repository hosts Honeywell's SwiftDecoder SDK.

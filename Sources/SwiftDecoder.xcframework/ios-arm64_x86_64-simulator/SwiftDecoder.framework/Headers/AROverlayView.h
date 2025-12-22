@@ -46,6 +46,7 @@ NS_ASSUME_NONNULL_BEGIN
 -(int) getDisplayCountDown;
 -(void) resetDisplayCountDown;
 -(void) setUndecodedOverlayRendering:(BOOL) flag;
+-(void)removeRotationforSubviews;
 @end
 
 NS_ASSUME_NONNULL_END

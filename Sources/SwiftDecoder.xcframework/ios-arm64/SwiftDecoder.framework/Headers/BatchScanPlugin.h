@@ -16,6 +16,12 @@
 @property (nonatomic,assign) int requiredScanCount;
 @property (nonatomic, strong) UIColor *overlayFrameColor;
 
+typedef enum
+{
+    PAUSED,
+    RESUMED
+}ScanState;
+
 /**
  @brief Sets the number of unique barcodes required
 
@@ -23,6 +29,9 @@
  @return return a BatchScanPlugin
  */
 - (instancetype)initWithRequiredScanCount:(int)barcodeCount;
+
+
+- (id)initWithAsyncResults:(BOOL)asyncResults;
 
 /**
  @brief This method changes the color of the Accent(frame and number text)
@@ -58,5 +67,42 @@
  * @return HSMDecodeResultArray list for the detected barcodes with overlay List
  */
 -(HSMDecodeResultArray *)getScannedBatchResult;
+
+/**
+ @brief Returns the current state of the batch scan.
+ *
+ *@return the current state of the batch scan *
+ */
+-(ScanState ) getCurrentScanState;
+
+/**
+ @brief This API allows the user  to pause the batch scan while the preview is still on.
+ *
+ */
+-(void)pauseScan;
+
+/**
+ @brief This API allows the user to resume the batch scan after it has been paused.
+ *
+ */
+-(void)resumeScan;
+
+/**
+ @brief This API allows the user to reset the scanned barcodes and restart the batch scan.
+ *
+ */
+-(void)resetScan;
+
+/**
+ @brief This API allows the user to start the  batch scan after it has been stopped..
+ *
+ */
+-(void)startAsyncScan;
+
+/**
+ @brief This API allows the user to stop the  batch scan after it has been started..
+ *
+ */
+-(void)stopAsyncScan;
 
 @end
