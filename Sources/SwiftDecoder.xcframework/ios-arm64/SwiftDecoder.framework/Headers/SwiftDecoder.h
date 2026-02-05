@@ -83,3 +83,5 @@ FOUNDATION_EXPORT const unsigned char HSMDecoderBAPIVersionString[];
 #import <SwiftDecoder/MasterListScanResultListener.h>
 #import <SwiftDecoder/MasterListScanPlugin.h>
 #import <SwiftDecoder/MasterListScanView.h>
+#import <SwiftDecoder/FlashMode.h>
+#import <SwiftDecoder/PinchZoomListener.h>

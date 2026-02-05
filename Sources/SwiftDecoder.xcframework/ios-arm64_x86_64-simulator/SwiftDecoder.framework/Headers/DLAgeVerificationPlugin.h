@@ -2,7 +2,6 @@
 //  AgeVerificationPlugin.h
 //  SwiftDecoder
 //
-//  Created by Jenith Raja A, Mohamed on 11/09/24.
 //
 
 #import <Foundation/Foundation.h>

@@ -6,11 +6,30 @@
 //
 //
 
+
+typedef  enum {
+    /**
+     * Multiple select requires frame to be frozen for selection
+     */
+    SINGLE_AND_MULTI_SELECT = 0,
+    SINGLE_SELECT
+} PreviewSelectMode;
+
+
 #import "DecodeBasePlugin.h"
 #import "BarcodeARBasePlugin.h"
+
 /**
- @brief A SwiftPlugin used for augmented reality decoding
+ * @brief A SwiftPlugin used for rendering Augmented Reality Overlay over detected barcodes within the preview.\n
+ * This plugin allows "Preview & Select" functionality, supporting both single and multiple barcode selection.\n
+ * Overlays on the preview enable touch functionality to select single barcodes.\n
+ * Multiple barcode selection is available only when the frame is frozen, by double tap on the preview component.\n
+ * Freeze/Unfreeze callbacks are provided to the application using FreezeFrameListener API in HSMDecoder.\n
+ * The application can register a DecodeResultListener callback using HSMDecoder::addResultListener API for actions on selected barcodes.\n
+ * Use HSMDecoder::registerPlugin and HSMDecoder::unRegisterPlugin APIs to register/unregister any plugin on SwiftDecoder.\n
+ * **The Counting API in this plugin will be deprecated in future releases; use PreviewCountPlugin for counting functionality.**
  */
+
 @interface PreviewSelectPlugin : BarcodeARBasePlugin{
     @private
     HSMDecodeResultArray *ARresults;
@@ -18,6 +37,14 @@
 
 @property (nonatomic, strong) UIColor *frameColor;
 @property (nonatomic, strong) UIColor *touchColor;
+
+/**
+ @brief This method initializes the PreviewSelectPlugin with the given selection mode
+
+ * @param mode
+ *     The preview selection mode to be used based on the input provided
+ */
+- (id)initWithPreviewSelectionMode:(PreviewSelectMode)mode;
 
 /**
  @brief This method changes the color of the Accent(frame and number text)
@@ -95,5 +122,25 @@
  * @return UIImage of the last AR decoded image
  */
 -(UIImage*) getLastARDecodedImage;
+
+/**
+ * @brief This method returns the results of the selected previews (applicable only for AR plugin)
+ */
+-(BOOL)getResultforSelectedBarcodes;
+
+/**
+ * @brief This method helps to select all previews at once (applicable only for AR plugin)
+ */
+-(BOOL)toggleSelectAll;
+
+/**
+ * @brief This method helps to know whether all previews are selected or not (applicable only for AR plugin)
+ */
+-(BOOL)isSelectAll;
+
+/**
+ * @brief This method helps to get the current preview select mode (applicable only for AR plugin)
+ */
+- (PreviewSelectMode)getPreviewSelectMode;
 
 @end

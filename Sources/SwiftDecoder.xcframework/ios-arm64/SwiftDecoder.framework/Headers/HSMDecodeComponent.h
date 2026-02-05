@@ -53,4 +53,13 @@
  * @brief API to dispose the current instance of HSMDecodeComponent
  */
 -(void)dispose;
+
+/**
+ * @brief This method returns the enable state of Freeze Mode (applicable only for AR plugin)
+ *
+ *
+ * @return
+ *     The enable state of the Freeze Mode
+ */
+
 @end

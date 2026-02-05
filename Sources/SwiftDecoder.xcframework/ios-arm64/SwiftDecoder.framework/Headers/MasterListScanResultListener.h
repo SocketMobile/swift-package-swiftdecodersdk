@@ -41,5 +41,6 @@
  */
 -(void)onMasterListDataReceiveError:(MasterListScanError) error;
 
+-(void) onFindResultSelected:(HSMDecodeResult*) barcodeSelected;
 
 @end

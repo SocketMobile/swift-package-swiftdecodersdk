@@ -30,6 +30,11 @@ typedef enum
  */
 - (instancetype)initWithRequiredScanCount:(int)barcodeCount;
 
+/**
+ @brief Calling this construcor will return results asynchronously via onDecode()
+
+ @param asyncResults Set to TRUE to get results asynchronously via onDecode()
+ */
 
 - (id)initWithAsyncResults:(BOOL)asyncResults;
 

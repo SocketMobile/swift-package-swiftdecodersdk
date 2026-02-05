@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import "AROverlayView.h"
+#import "HSMDecodeResultArray.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BatchScanView : AROverlayView

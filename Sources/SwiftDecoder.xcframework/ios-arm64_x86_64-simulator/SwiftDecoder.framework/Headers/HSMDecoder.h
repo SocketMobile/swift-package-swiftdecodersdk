@@ -19,11 +19,15 @@
 #import "PluginHelper.h"
 #import "CameraManager.h"
 #import "FreezeFrameListener.h"
+#import "PinchZoomListener.h"
+#import "FlashMode.h"
+
+
+
 /**
  * @brief This class is used to display a real time barcode scanning preview screen and to return the decoded barcode results to the calling activity
  */
 @interface HSMDecoder : NSObject
-
 //static singelton methods
 
 /**
@@ -600,4 +604,58 @@
  * @brief Disbales Undecoded Barcode ROI's Detection.
  */
 -(void) disableUndecodedBarcodeDetection;
+
+/**
+ * @brief Enable pinch zoom feature for camera
+ * @param enable enable/disable pinch zoom for camera
+ *
+ */
+-(void) enablePinchZoom:(BOOL)enable;
+
+/**
+ * @brief register pinch zoom listner to get pinch zoom level
+ * @param listener of class that implementing pinch zoom
+ *
+ */
+-(void) registerPinchZoomCallBack:(id<PinchZoomListener>) listener;
+
+/**
+ * @brief return current pinch zoom enabled value
+ * @return return pinch zoom current state
+ */
+-(BOOL)isPinchZoomEnabled;
+
+/** 
+ * @brief Initializes the FlashMode while camera preview is OFF
+ *         This will be applied when camera preview starts for any plugin.
+ * @param mode
+ */
+
+-(void)initFlashMode:(FlashMode)mode;
+
+/**
+ * @brief Allows to fetch the  initialized Flash mode
+ * @return Initialized Flash mode that is being set.
+ *
+ */
+
+-(FlashMode)getInitializedFlashMode;
+
+/**
+ * @brief Allows to change the mode while on preview screen
+ *
+ * @param mode FlashMode value that needs to be set
+ *
+ */
+
+-(void)setCurrentFlashMode:(FlashMode) mode;
+/**
+ * @brief Allows to fetch the current  Flash mode
+ * @return Current Flash mode that is being set.
+ *
+ */
+
+-(FlashMode)getCurrentFlashMode;
+
+
 @end

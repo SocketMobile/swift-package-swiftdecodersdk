@@ -5,6 +5,21 @@
 //  Created by H454944 on 05/03/24.
 //
 
+typedef enum {
+     CSV_READ_FAILED,
+     CSV_FILE_HDR_MISSING,
+     CSV_READ_NO_BARCDOES,
+     CSV_FILE_ALREADY_LOADED
+} MasterListScanError;
+
+typedef MasterListScanError SwiftFindError;
+
+typedef enum
+{
+    FETCH_MASTERLIST,
+    MATCH_MASTERLIST_DATA
+} ScanMode;
+
 #import <UIKit/UIKit.h>
 #import "AROverlayView.h"
 #import "ARBasePlugin.h"

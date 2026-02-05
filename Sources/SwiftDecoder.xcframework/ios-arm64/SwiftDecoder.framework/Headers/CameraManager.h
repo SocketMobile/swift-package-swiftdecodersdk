@@ -22,6 +22,9 @@
 #import "CameraManagerEventListener.h"
 #import "ActiveCamera.h"
 #import "DependencyCallbackManager.h"
+#import "PinchZoomListener.h"
+#import "FlashMode.h"
+
 typedef void (^Handler)(UIImage *fullResolutionImage);
 typedef NS_ENUM(int, Resolution)  {
     /** @brief Auto*/
@@ -36,6 +39,7 @@ typedef NS_ENUM(int, Resolution)  {
     MAX_DOF = 4
 };
 
+
 @interface CameraManager : NSObject <AVCaptureVideoDataOutputSampleBufferDelegate,AVCapturePhotoCaptureDelegate>
 {
     @private
@@ -44,7 +48,7 @@ typedef NS_ENUM(int, Resolution)  {
     AVCaptureDeviceInput *videoIn;
     AVCaptureVideoDataOutput *videoOutPreview;
     int cameraFocusMode;
-    bool isAutoFocusing, isFlashEnabled,ARPluginRegistered;
+    bool isAutoFocusing/*, isFlashEnabled*/,ARPluginRegistered;
     unsigned char *lastDecodedPtr, *lastImgPtrCropped ,*lastProcessedImgPtr;
     int lastDecodedImgHeight;
     int lastDecodedImgWidth;
@@ -112,4 +116,11 @@ typedef NS_ENUM(int, Resolution)  {
 -(Resolution)getCameraResolutionForString:(NSString*)resolutionStr;
 -(Boolean) ARPluginRegistered;
 - (void) RegisterARPlugin:(Boolean)isRegister;
+- (void)handlePinch:(UIPinchGestureRecognizer *)gesture;
+-(void) enablePinchZoom:(BOOL)enable;
+-(void) registerPinchZoomCallBack:(id<PinchZoomListener>) listener;
+-(BOOL)isPinchZoomEnabled;
+- (void)enableAutoFlash:(BOOL)enable;
+- (void)turnOffTheTorch;
+-(void)enableFlashMode:(FlashMode)mode;
 @end

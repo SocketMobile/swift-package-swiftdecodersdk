@@ -10,6 +10,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface PreviewSelectView : AROverlayView
 -(id) initWithFrame:(CGRect)frame withFrameColor:(UIColor*)frameColor withListener:(id<PreviewAndSelectTouchListener>)listener;
+-(void)selectPreview;
+-(void)removeSelectedPreview;
 @end
 
 NS_ASSUME_NONNULL_END

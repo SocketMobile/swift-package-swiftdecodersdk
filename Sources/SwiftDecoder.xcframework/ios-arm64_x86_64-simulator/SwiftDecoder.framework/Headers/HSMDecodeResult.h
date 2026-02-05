@@ -88,5 +88,4 @@
  */
 @property (assign) char aimModifier;
 
-
 @end

@@ -60,4 +60,17 @@
  */
 -(void)removeAllObjects;
 
+/**
+* @brief This method helps to remove the index of the object in the array
+*
+* @param index
+*   The index of the object to remove
+*/
+-(HSMDecodeResult *)removeObjectAtIndex:(NSUInteger)index;
+
+/**
+ * @brief This method will provide all the selected objects from the array
+ */
+- (NSArray *)getAllObjects;
+
 @end

@@ -10,19 +10,6 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef enum {
-     CSV_READ_FAILED,
-     CSV_FILE_HDR_MISSING,
-     CSV_READ_NO_BARCDOES,
-     CSV_FILE_ALREADY_LOADED
-} MasterListScanError;
-
-typedef enum
-{
-    FETCH_MASTERLIST,
-    MATCH_MASTERLIST_DATA
-} ScanMode;
-
 /**
  * @brief A SwiftPlugin used for counting the number of barcodes scanned in the current preview.
  * This plugin specifically supports scanning of similar barcodes in current preview or FOV
@@ -43,8 +30,7 @@ typedef enum
 
 /**
   * @brief Allows to fetch the Overlay result list for a given preview .
-  *             The overlays for same barcode values is also supported with this feature.
-  * @return HSMDecodeResult list for the detected barcodes with overlay List through callback
+  *  The overlays for same barcode values is also supported with this feature.
   */
 -(void) capturePreviewData;
 /**

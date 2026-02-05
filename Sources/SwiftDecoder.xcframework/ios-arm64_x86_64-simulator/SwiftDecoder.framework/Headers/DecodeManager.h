@@ -13,6 +13,10 @@
 //  Created by eltodesc on 11/13/13.
 //
 //
+typedef  enum {
+    PreviewSelectionModeSingle = 0,
+    PreviewSelectionModeMultiple = 1
+} PreviewSelectionMode;
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
@@ -59,6 +63,8 @@
 -(int)objectDetectorGetNumberOfROIs;
 //-(void)decodeMultiEngine :(CVPixelBufferRef) pixelBuffer;
 -(HSMDecodeResultArray*)decodeMultiEngine :(char*) imgPtr withWidth:(int)imageWidth withHeight:(int)imageHeight;
-
 -(HSMDecodeResultArray*)getResultsForMLROI;
+-(void)setPreviewSelectionMode:(PreviewSelectionMode)mode;
+-(PreviewSelectionMode)getPreviewSelectionMode;
+
 @end

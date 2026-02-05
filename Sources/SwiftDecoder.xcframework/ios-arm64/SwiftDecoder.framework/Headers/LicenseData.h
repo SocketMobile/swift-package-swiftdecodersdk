@@ -404,6 +404,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (retain) NSString* DLIssuingAuthority;
 
+/**
+ * @brief Drivers License: Additional Document Number
+ * @details Field that indicates that the Additional Document Number.
+ */
+@property (retain) NSString *DLDocumentAdditonalNumber;
 @end
 
 NS_ASSUME_NONNULL_END
